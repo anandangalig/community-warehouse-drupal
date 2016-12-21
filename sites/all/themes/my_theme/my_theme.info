@@ -4,6 +4,8 @@ core = 7.x
 base theme = multipurpose
 
 stylesheets[all][] = css/my_styles.css
+scripts[] = js/script.js
+
 
 regions[sidebar_first]  = First Sidebar
 regions[header]         = Header
