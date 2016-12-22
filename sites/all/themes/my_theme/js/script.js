@@ -1,5 +1,9 @@
 jQuery(document).ready(function($){
-  if(window.location.pathname == "node") {
+  $("#edit-submit").hover(function(){
     alert("it works!");
   }
 });
+
+// if(document.getElementById('#edit-submit')) {
+//   alert("it works!");
+// }

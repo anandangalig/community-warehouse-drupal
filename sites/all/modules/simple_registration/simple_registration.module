@@ -1,0 +1,7 @@
+<?php
+    function simple_registration_form_alter(&$form, &$form_state, $form_id) {
+      if($form_id == 'registration_form') {
+        $form['state']['#access'] = 0;
+        $form['who_message']['#access'] = 0;
+      }
+    }

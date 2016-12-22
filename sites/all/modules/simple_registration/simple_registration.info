@@ -1,0 +1,5 @@
+name = Simple Registration
+description = Eliminates the State dropdown menu, and displays Already Requested message.
+package = Custom Modules
+core = 7.x
+files[] = simple_registration.module
