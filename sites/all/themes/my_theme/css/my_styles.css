@@ -1,0 +1,15 @@
+#already_registered {
+  color: #4F8A10;
+  background-color: #DFF2BF;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 30px 0 30px 0;
+}
+
+#button {
+  background-color: blue;
+}
+
+#community_image {
+  border-radius: 25px;
+}

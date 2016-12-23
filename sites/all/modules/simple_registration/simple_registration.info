@@ -1,5 +1,5 @@
-name = Simple Registration
-description = Eliminates the State dropdown menu, and displays Already Requested message.
+name = Simple Registration and Add New Item
+description = Eliminates the State dropdown menu, and displays Already Requested message. Also, when adding new item, owner name is auto-filled, hides registration type. 
 package = Custom Modules
 core = 7.x
 files[] = simple_registration.module

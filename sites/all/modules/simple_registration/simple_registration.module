@@ -4,4 +4,10 @@
         $form['state']['#access'] = 0;
         $form['who_message']['#access'] = 0;
       }
+
+      if($form_id == 'item__node_form') {
+        global $user;
+        $form['field_request_item']['#access'] = 0;
+        $form['field_owner']['und'][0]['target_id']['#default_value'] = $user->name;
+      }
     }
